@@ -1,0 +1,43 @@
+.full-text{
+    padding: 80px 0 80px;
+    text-align: center;
+    color: $bluec;
+    
+    .text-wrap{
+        width: 100%;
+        max-width: auto;
+        margin: 0 auto;
+        h3{
+            font-family: $it-reg;
+            font-size: $fs + 30px;
+            padding-bottom: 60px;
+            color: $col-foot1;
+        }
+
+        h5{
+            font-family: $itp-lite;
+            font-size: $fs + 7px;
+            padding-bottom: 40px;
+
+            &.foot-title{
+                padding-bottom: 0;
+                padding-top: 40px;
+            }
+        }
+
+        p{
+            font-family: $fulite;
+            font-size: $fs + 7px;
+        }
+    }
+
+    a{
+        margin-top: 60px;
+        background-color: $white;
+        color: $col-sec-even;
+    }
+
+    .img-row{
+        margin-top: 59px;
+    }
+}

@@ -1,0 +1,40 @@
+.partnership{
+    padding-top: 63px;
+    padding-bottom: 87px;
+    text-align: center;
+
+    .block-title{
+        h2{
+            margin-bottom: 40px;
+        }
+    }
+
+    .partner{
+        &.partner-1{
+            padding-top: 41px;
+        }
+
+        &.partner-2{
+            margin-top: 60px;
+        }
+
+        h5{
+            font-family: $itp-lite;
+            font-size: $fs + 13px;
+        }
+
+        .partner-wrap{
+            figure{
+                margin-bottom: 0;
+                height: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    .btn-doi{
+        margin-top: 80px;
+    }
+}

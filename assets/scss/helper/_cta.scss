@@ -1,0 +1,19 @@
+.cta{
+    background-color: $white;
+    color: $col-foot1;
+
+
+    .cta-wrap{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 17px 0 22px;
+        text-align: center;
+        a{
+            color: $white;
+            text-decoration: underline;
+            font-size: $fs + 9px;
+        }
+    }
+
+}

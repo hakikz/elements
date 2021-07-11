@@ -1,0 +1,53 @@
+.hero{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+    .hero-wrap{
+        position: relative;
+        display: block;
+        height: 550px;
+
+        .content-wrap{
+            position: absolute;
+            bottom: 73px;
+            text-align: center;
+            width: 100%;
+
+            a{
+                font-family: $helne;
+                font-size: $fs + 25px;
+                color: $white;
+                border: 2px solid $white;
+                padding: 10px 30px;
+                margin-bottom: 103px;
+                display: inline-block;
+                text-decoration: none;
+                text-transform: uppercase;
+
+                &:hover{
+                    background-color: $white;
+                    color: $col-black;
+                }
+            }
+
+            h1{
+                font-family: $helne;
+                font-size: $fs + 25px;
+                color: $white;
+            }
+        }
+        .left-text{
+            position: absolute;
+            left: 5px;
+            bottom: 0;
+
+            p{
+                font-size: $fs - 5px;
+                font-family: $itp-lite;
+                color: $white;
+            }
+        }
+    }
+
+}

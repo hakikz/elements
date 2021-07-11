@@ -1,0 +1,123 @@
+@media screen and (min-width: 320px) and (max-width: 767px){
+    
+    .header{
+        .navbar-logo{
+            margin-top: 0;
+        }
+
+        .navbar {
+            justify-content: center;
+            padding: 7px 0;
+
+            .navbar-nav{
+                background-color: $col-foot1;
+                flex-direction: column;
+                li{
+                    a{
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        display: block;
+                        text-align: center;
+                    }
+                    &:last-child{
+                        a{
+                            // padding-right: 20px;
+                            display: block;
+                        }
+                    }
+                }
+            }
+
+            .navbar-toggler{
+                width: 100%;
+                background-color: $col-sec-even;
+            }
+        }
+    }
+    
+    .csoon {
+        background-size: auto;
+
+        .content-wrap{
+            .logo{
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+
+        &.home{
+            // height: auto;
+            .navbar {
+                .navbar-nav{
+                    background-color: $col-foot1;
+                    li{
+                        a{
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                        }
+                        &:last-child{
+                            a{
+                                padding-right: 20px;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .content-wrap{
+                padding-top: 180px;
+            }
+        }
+    }
+
+    .cta{
+        h5{
+            font-size: $fs + 2px;
+        }
+    }
+
+    .standard{
+        .text-wrap {
+            .btn{
+                margin: 30px 0 50px;
+            }
+        }
+    }
+
+    .footer{
+        padding-top: 0;
+        .register-wrap{
+            .form-wrap{
+                padding: 0 20px;
+            }
+        }
+
+        .appointment{
+            margin-top: 50px;
+        }
+
+        .brought{
+            margin-top: 60px;
+
+            figure{
+                &.icons1{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .three-col{
+        .content-wrap{
+            padding-bottom: 30px;
+        }
+    }
+
+    .scrollToTop {
+        width: 75px;
+        height: 75px;
+        right: 0;
+        bottom: 0;
+    }
+}
