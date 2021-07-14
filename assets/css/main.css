@@ -379,6 +379,12 @@ body {
   .partnership .btn-doi {
     margin-top: 80px; }
 
+.map .map-container {
+  margin: 50px 0; }
+
+.stage .stage-container {
+  margin: 30px 0 50px; }
+
 .footer {
   background-color: #011738;
   background-size: cover;
